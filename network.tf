@@ -3,7 +3,6 @@ resource "azurerm_resource_group" "example" {
   location = "Southeast Asia"
 }
 
-
 module "network" {
   source  = "app.terraform.io/chip-seojun/network/azurerm"
   version = "3.5.0"
