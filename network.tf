@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "seojun12"
+  name     = "seojun"
   location = "Southeast Asia"
 }
 
